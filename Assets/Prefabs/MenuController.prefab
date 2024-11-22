@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3073057447414942969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6272046687418323148}
+  - component: {fileID: 5013984085811809594}
+  - component: {fileID: 8720094883103954308}
+  - component: {fileID: 3970525079879522241}
+  - component: {fileID: 2603727812991847763}
+  m_Layer: 0
+  m_Name: MenuController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6272046687418323148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073057447414942969}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5013984085811809594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073057447414942969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f75f93e7a4d4f02458e700823507b355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageCharacter: {fileID: 0}
+  characterIndex: 0
+  characterSprites:
+  - {fileID: 21300000, guid: 446a0b77d837080469bf499435417e65, type: 2}
+  - {fileID: 21300000, guid: 4654aa433b972af4899929a8b94193e4, type: 2}
+  - {fileID: 21300000, guid: 726725a0cfbadc445b65a62afd3f2b9f, type: 2}
+  - {fileID: 21300000, guid: acb1e54fe45b03b409ec940351935f8a, type: 2}
+  splashText: {fileID: 0}
+  splashes:
+  - Now with 50% more bugs!
+  - Made in Unreal Engine 5!
+  - On Commodore 64 and Super Nintendo!
+  - This is not an original idea, ain't it?
+  - Saturday Night's alright for jumping!
+  - Not owned by Tencent or Microsoft
+  - Look mom! I change everytime i pop up!
+  - Kitsune no kagizume o tokihanate!
+  - CM PUNK IS THE BEST IN THE WORLD!
+  - Hey Niko! Do you want to play bowling?
+  - The Energy is EQUAL to the Mass times square Celerum
+  - This game raises your electric bill by 25%!
+  - Inspired by Sid Meier and Tom Clancy
+  - The Simpsons didn't predict this game!
+  loadButton: {fileID: 0}
+--- !u!114 &8720094883103954308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073057447414942969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68199303c8f9a748845f348fda8bc33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonPlayMP: {fileID: 0}
+  panelMP: {fileID: 0}
+  sceneManager: {fileID: 0}
+--- !u!114 &3970525079879522241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073057447414942969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be97efcfaa97f7428d9bbc4687b0dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  singleplayerPanel: {fileID: 0}
+--- !u!114 &2603727812991847763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073057447414942969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b6a8008578c27143b7a074bce10b454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settingsPanel: {fileID: 0}
+  soundPanel: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: c67bfd0466510fa46b4b854a65564964, type: 2}
+  resolutionsDropdown: {fileID: 0}
